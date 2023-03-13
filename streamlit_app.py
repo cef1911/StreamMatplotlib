@@ -10,7 +10,7 @@ import numpy as np
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 """
-Hey Que
+#Hey Que
 """
 labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
 sizes = [15, 30, 45, 10]
