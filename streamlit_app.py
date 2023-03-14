@@ -5,19 +5,19 @@ import numpy as np
 # https://discuss.streamlit.io/t/how-to-draw-pie-chart-with-matplotlib-pyplot/13967/2
 # https://discuss.streamlit.io/t/error-importing-matplotlib-pyplot-on-streamlit-server/28897/4
 
-st.header('Demo of Histogram')
+# st.header('Demo of Histogram')
 
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
+# arr = np.random.normal(1, 1, size=100)
+# fig, ax = plt.subplots()
+# ax.hist(arr, bins=20)
 
-st.pyplot(fig)
+# st.pyplot(fig)
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 
-st.header('Demo of Pie Chart that will be used Kids Member Names, Team Names, Team Roles, and Fishing Results')
+st.header('Demo Pie Chart of Kids Fishing Results by Percentage of Total Daily Catch of the Day')
 
-labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
+labels = 'TeamA', 'TeamB', 'TeamC', 'TeamD'
 sizes = [15, 30, 45, 10]
 explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
