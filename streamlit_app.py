@@ -2,15 +2,18 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 
-# arr = np.random.normal(1, 1, size=100)
-# fig, ax = plt.subplots()
-# ax.hist(arr, bins=20)
+# https://discuss.streamlit.io/t/how-to-draw-pie-chart-with-matplotlib-pyplot/13967/2
 
-# st.pyplot(fig)
+arr = np.random.normal(1, 1, size=100)
+fig, ax = plt.subplots()
+ax.hist(arr, bins=20)
+
+st.pyplot(fig)
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 """
-#Hey Que
+Demo of Pie Chart that will be used Kids Member Names, Team Names, Team Roles, and Fishing Results
+
 """
 labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
 sizes = [15, 30, 45, 10]
