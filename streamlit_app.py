@@ -5,6 +5,8 @@ import numpy as np
 # https://discuss.streamlit.io/t/how-to-draw-pie-chart-with-matplotlib-pyplot/13967/2
 # https://discuss.streamlit.io/t/error-importing-matplotlib-pyplot-on-streamlit-server/28897/4
 
+st.header('Demo of Histogram')
+
 arr = np.random.normal(1, 1, size=100)
 fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
