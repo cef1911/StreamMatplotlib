@@ -12,10 +12,9 @@ ax.hist(arr, bins=20)
 st.pyplot(fig)
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-"""
-Demo of Pie Chart that will be used Kids Member Names, Team Names, Team Roles, and Fishing Results
 
-"""
+st.header('Demo of Pie Chart that will be used Kids Member Names, Team Names, Team Roles, and Fishing Results')
+
 labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
 sizes = [15, 30, 45, 10]
 explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
